@@ -23,7 +23,7 @@ public class AwsSpringbootGradleApplication {
 
     @GetMapping("/api/health")
     public String getHealthCheckApi() {
-        return "OK";
+        return "Application Status - OK";
     }
 
     @GetMapping("/api/hello")
